@@ -1,18 +1,49 @@
-## Getting Started
+🌳 Projeto Árvore Genealógica
+Este é um projeto em Java desenvolvido como parte da disciplina de Estrutura de Dados na faculdade. O objetivo principal é implementar e manipular uma árvore genealógica, permitindo o cadastro, organização e visualização das relações familiares entre pessoas.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+📚 Descrição Geral
+O sistema representa uma árvore genealógica, onde cada nó é uma pessoa e seus descendentes são armazenados como filhos. O projeto foi organizado em 6 classes principais, cada uma com responsabilidades bem definidas, visando boas práticas de programação orientada a objetos e aplicação de estruturas de dados estudadas na disciplina.
 
-## Folder Structure
+🧩 Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+1. App.java
+   Arquivo principal que contém o método main. Ele é responsável por iniciar o programa e controlar o fluxo principal da aplicação, fazendo chamadas para outras classes como Entradas e Arvore.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. Arvore.java
+   Classe responsável por armazenar e manipular a árvore genealógica como um todo. Fornece métodos para adicionar membros, buscar pessoas, imprimir a árvore, entre outras funcionalidades.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Estrutura de Dados: A árvore é construída com nós encadeados, permitindo múltiplos filhos para cada nó (representando descendência).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3. Entradas.java
+   Classe responsável por lidar com a entrada de dados do usuário, como cadastro de novas pessoas, definição de parentescos e chamadas às operações disponíveis na árvore.
 
-## Dependency Management
+4. Lista.java
+   Implementa uma lista encadeada personalizada para armazenar os filhos de um nó da árvore. Cada elemento da lista representa um descendente direto de uma pessoa.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Estrutura de Dados: Lista ligada (simplesmente encadeada), implementada manualmente sem uso de coleções prontas.
+
+5. No.java
+   Classe que representa um nó da árvore genealógica. Cada nó contém uma instância da classe Pessoa e uma Lista com os seus filhos.
+
+6. Pessoa.java
+   Classe que armazena os dados de uma pessoa, como nome, data de nascimento, e possivelmente outras informações pessoais relevantes.
+
+⚙️ Estruturas de Dados Utilizadas
+Árvore Generalizada: Estrutura principal que representa as relações de ancestralidade.
+
+Lista Encadeada: Implementada manualmente para armazenar os filhos de cada nó da árvore.
+
+Nós Personalizados: Cada nó contém dados de uma pessoa e a lista de seus filhos, simulando uma árvore genealógica multi-nível.
+
+🎓 Projeto Acadêmico
+Este projeto foi desenvolvido como trabalho da disciplina de Estrutura de Dados, com o objetivo de aplicar na prática conceitos como árvores, listas encadeadas, encapsulamento e modularização de código em Java.
+
+🚀 Como Executar
+Compile todos os arquivos .java com um compilador Java (como o javac).
+
+Execute a classe principal App.java.
+
+Siga as instruções no terminal para adicionar pessoas e explorar a árvore genealógica.
+
+✍️ Autor
+Desenvolvido por Nícolas Oliveira Baptista Pereira – Estudante de Análise e Desenvolvimento de Sistemas na Fatec Bragança Paulista.
