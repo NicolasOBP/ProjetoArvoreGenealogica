@@ -1,10 +1,10 @@
-🌳 Projeto Árvore Genealógica
+## 🌳 Projeto Árvore Genealógica
 Este é um projeto em Java desenvolvido como parte da disciplina de Estrutura de Dados na faculdade. O objetivo principal é implementar e manipular uma árvore genealógica, permitindo o cadastro, organização e visualização das relações familiares entre pessoas.
 
-📚 Descrição Geral
+## 📚 Descrição Geral
 O sistema representa uma árvore genealógica, onde cada nó é uma pessoa e seus descendentes são armazenados como filhos. O projeto foi organizado em 6 classes principais, cada uma com responsabilidades bem definidas, visando boas práticas de programação orientada a objetos e aplicação de estruturas de dados estudadas na disciplina.
 
-🧩 Estrutura do Projeto
+## 🧩 Estrutura do Projeto
 
 1. App.java
    Arquivo principal que contém o método main. Ele é responsável por iniciar o programa e controlar o fluxo principal da aplicação, fazendo chamadas para outras classes como Entradas e Arvore.
@@ -28,22 +28,22 @@ Estrutura de Dados: Lista ligada (simplesmente encadeada), implementada manualme
 6. Pessoa.java
    Classe que armazena os dados de uma pessoa, como nome, data de nascimento, e possivelmente outras informações pessoais relevantes.
 
-⚙️ Estruturas de Dados Utilizadas
+## ⚙️ Estruturas de Dados Utilizadas
 Árvore Generalizada: Estrutura principal que representa as relações de ancestralidade.
 
 Lista Encadeada: Implementada manualmente para armazenar os filhos de cada nó da árvore.
 
 Nós Personalizados: Cada nó contém dados de uma pessoa e a lista de seus filhos, simulando uma árvore genealógica multi-nível.
 
-🎓 Projeto Acadêmico
+## 🎓 Projeto Acadêmico
 Este projeto foi desenvolvido como trabalho da disciplina de Estrutura de Dados, com o objetivo de aplicar na prática conceitos como árvores, listas encadeadas, encapsulamento e modularização de código em Java.
 
-🚀 Como Executar
+## 🚀 Como Executar
 Compile todos os arquivos .java com um compilador Java (como o javac).
 
 Execute a classe principal App.java.
 
 Siga as instruções no terminal para adicionar pessoas e explorar a árvore genealógica.
 
-✍️ Autor
+## ✍️ Autor
 Desenvolvido por Nícolas Oliveira Baptista Pereira – Estudante de Análise e Desenvolvimento de Sistemas na Fatec Bragança Paulista.
